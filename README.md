@@ -7,9 +7,9 @@ Documenting my knowledge along the way of learning some mathetmatics towards a b
 Kick off this project with:
 
     $ pipenv lock
-    $ pipenv install matplotlib pandas statsmodels
+    $ pipenv install
 
-Execute with 
+Execute with:
 
     $ pipenv shell
 
