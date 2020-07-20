@@ -1,5 +1,5 @@
 """
-"Good practices" exercise. Every approach will be contrasted with its counterpart.
+NumPy "Good practices" exercise. Every approach will be contrasted with its counterpart.
 """
 # %%
 
@@ -26,7 +26,6 @@ start = time.time()
 recent_coding_books = np.intersect1d(coding_books, recent_books)
 print(len(recent_coding_books))
 print('Duration: {} seconds'.format(time.time() - start))
-
 
 # Get >500 * 3 times improvement with set's intersection
 start = time.time()
